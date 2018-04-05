@@ -1,5 +1,8 @@
 body {
     background-color:rgba(90, 90, 90, 0) !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.bienvenue {
