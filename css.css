@@ -13,11 +13,17 @@ div.bienvenue {
     width: 90%;
 }
 
-div.carte {
+div.carte, div.legende {
     align-items: center;
     justify-content: baseline;
     display: flex;
     flex-flow: wrap;
+}
+
+div.legende div {
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1em !important;
 }
 
 nav {
@@ -112,7 +118,7 @@ div.card {
     margin: 1em;
   }
   
-div.header {
+div.etudier {
     background-color: #9c92ac;
     color: white;
     padding: 10px;
@@ -126,6 +132,18 @@ div.habitation {
 
 div.manger {
     background-color: #aca792;
+    color: white;
+    padding: 10px;
+}
+
+div.voyager {
+    background-color: #ac9292;
+    color: white;
+    padding: 10px;
+}
+
+div.informer {
+    background-color: #92acac;
     color: white;
     padding: 10px;
 }
