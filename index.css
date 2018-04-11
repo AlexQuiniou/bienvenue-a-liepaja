@@ -147,6 +147,24 @@ div.informer {
     color: white;
     padding: 10px;
 }
+
+div.footer {
+    max-width: 250px;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-width: 0;
+    margin: 1em;
+    border-radius: 0.5em;
+    font-size: 0.7em;
+}
+
+a.github {
+    font-size: 100% !important;
+    margin: 0.5em;
+}
   
 div.container {
     padding: 10px;
@@ -204,4 +222,3 @@ p.title {
     list-style-type: none;
     font-weight: bolder;
 }
-  
