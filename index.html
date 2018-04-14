@@ -7,15 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bienvenue à Liepaja</title>
     <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
 
     <div class="o-wall__inner bienvenue justify-content-center">
+
+        <!-- ------ -->
+
+
         <ol class="o-wall__letters-list un titre">
             <li class="o-wall__letters-list--letter">
                 B
@@ -46,11 +56,15 @@
             </li>
         </ol>
 
+        <!-- ------ -->
+
         <ol class="o-wall__letters-list deux titre">
             <li class="o-wall__letters-list--letter">
                 a
             </li>
         </ol>
+
+        <!-- ------ -->
 
         <ol class="o-wall__letters-list trois titre">
             <li class="o-wall__letters-list--letter">
@@ -77,130 +91,236 @@
         </ol>
     </div>
 
+    <!-- ------ -->
+
     <div class="legende justify-content-center">
-        <div class="badge badge-pill badge-success">
+        <div class="badge badge-pill badge-success rounded">
             Loger
         </div>
-        <div class="badge badge-pill badge-warning">
+        <div class="badge badge-pill badge-warning rounded text-white">
             Manger
         </div>
-        <div class="badge badge-pill badge-primary">
+        <div class="badge badge-pill badge-primary rounded">
             Etudier
         </div>
-        <div class="badge badge-pill badge-danger">
+        <div class="badge badge-pill badge-danger rounded">
             Voyager
         </div>
-        <div class="badge badge-pill badge-info">
+        <div class="badge badge-pill badge-info rounded">
             Informer
         </div>
     </div>
+
+    <!-- ------ -->
 
     <div class="carte justify-content-center">
 
         <!-- ------ -->
 
-        <div class="card">
-            <div class="etudier">
-                <p class="title">Adresse</p>
-                <a class="badge badge-pill badge-primary" href="geo:56.510107, 21.001633">Kūrmājas prospekts 13, Liepāja, LV-3401
-                    <a class="badge badge-light" href="https://goo.gl/maps/wjLGUgMJ7gk" target="_blank">Google maps</a>
-                </a>
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-primary" href="http://mplab.lv/" target="_blank">mplab.lv</a>
-                <p class="title">Numéro de téléphone</p>
-                <a class="badge badge-pill badge-primary" href="tel:63425537">63 425 537</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">✔️</a>
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Laboratoire d’expérimentations</h5>
             </div>
-
-            <div class="container">
-                <p class="title">Laboratoire d’expérimentations</p>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#labo" aria-expanded="false" aria-controls="labo">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="labo">
+                        <div class="card card-body bg-primary w-100 m-0">
+                            C'est le lieux où se déroulent tout les cours L'entrée est par derriere en passant par un grillage et le "basement" se trouve
+                            au sous-sol
+                        </div>
+                    </div>
+                </p>
             </div>
-        </div>
-
-        <!-- ------ -->
-
-        <div class="card">
-            <div class="habitation">
-                <p class="title">Adresse</p>
-                <a class="badge badge-pill badge-success" href="geo:56.505549, 21.019476">Ganību iela 36/48, Liepāja, LV-3401
-                    <a class="badge badge-light" href="https://goo.gl/maps/iFhNAXjuCqR2" target="_blank">Google maps</a>
-                </a>
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-success" href="https://www.liepu.lv/lv/291/dienesta-viesnica" target="_blank">liepu.lv/lv/291/dienesta-viesnica</a>
-                <p class="title">Numéro de téléphone</p>
-                <a class="badge badge-pill badge-success" href="tel:63424275">63 420 165</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">❌</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Dortoir Etudiant</p>
-            </div>
-        </div>
-
-        <!-- ------ -->
-
-        <div class="card">
-            <div class="manger">
-                <p class="title">Adresse</p>
-                <a class="badge badge-pill badge-warning" href="geo:56.509616, 21.009635">Friča Brīvzemnieka iela 36, Liepāja, LV-3401, Lettonie
-                    <a class="badge badge-light" href="https://goo.gl/maps/NXo48aBfmMK2" target="_blank">Google maps</a>
-                </a>
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-warning" href="http://www.dokapica.lv/" target="_blank">dokapica.lv</a>
-                <p class="title">Numéro de téléphone</p>
-                <a class="badge badge-pill badge-warning" href="tel:63 420 290">63 420 290</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">✔️</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Doka pizza</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-primary">
+                    <a href="https://goo.gl/maps/wjLGUgMJ7gk" target="_blank" class="badge badge-primary">
+                        <i class="material-icons d-block">place</i> Kūrmājas prospekts 13, Liepāja, LV-3401, Lettonie
+                    </a>
+                </li>
+                <li class="list-group-item bg-primary">
+                    <a href="http://mplab.lv" target="_blank" class="badge badge-primary">
+                        <i class="material-icons d-block">link</i> mplab.lv
+                    </a>
+                </li>
+                <li class="list-group-item bg-primary">
+                    <a href="tel:63 425 537" target="_blank" class="badge badge-primary">
+                        <i class="material-icons d-block">phone</i> 63 425 537
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_very_satisfied</i>
             </div>
         </div>
 
         <!-- ------ -->
 
-        <div class="card">
-            <div class="etudier">
-                <p class="title">Adresse</p>
-                <a class="badge badge-pill badge-primary" href="geo:XXX">Lielā iela 14, Liepāja, LV-3401
-                    <a class="badge badge-light" href="https://goo.gl/maps/ZHoTYST42sy" target="_blank">Google maps</a>
-                </a>
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-primary" href="https://www.liepu.lv/en/" target="_blank">liepu.lv/en</a>
-                <p class="title">Numéro de téléphone</p>
-                <a class="badge badge-pill badge-primary" href="tel:63 425 659">63 425 659</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">❔</a>
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Doka pizza</h5>
             </div>
-
-            <div class="container">
-                <p class="title">Université de Liepaja</p>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-warning text-white" type="button" data-toggle="collapse" data-target="#pizza" aria-expanded="false"
+                            aria-controls="pizza">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="pizza">
+                        <div class="card card-body bg-warning w-100 m-0">
+                            Une pizzeria très sympathique et décontractée avec des prix vraiment bas 7€ la margarita + le coca par exemple
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-warning">
+                    <a href="https://goo.gl/maps/NXo48aBfmMK2" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">place</i> Friča Brīvzemnieka iela 36, Liepāja, LV-3401, Lettonie
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="http://www.dokapica.lv" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">link</i> dokapica.lv
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="tel:63 420 290" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">phone</i> 63 420 290
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_very_satisfied</i>
             </div>
         </div>
 
         <!-- ------ -->
 
-        <div class="card">
-            <div class="manger">
-                <p class="title">Adresse</p>
-                <a class="badge badge-pill badge-warning" href="geo:XXX">Kungu iela 40/42, Liepāja, LV-3401
-                    <a class="badge badge-light" href="https://goo.gl/maps/sgqLVJoRv2M2" target="_blank">Google maps</a>
-                </a>
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-warning" href="http://supernetto.lv/" target="_blank">supernetto.lv</a>
-                <p class="title">Numéro de téléphone</p>
-                <a class="badge badge-pill badge-warning" href="tel:63 426 016">63 426 016</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">❌</a>
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Dortoir Etudiant</h5>
             </div>
-
-            <div class="container">
-                <p class="title">Supernetto</p>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#dortoir" aria-expanded="false" aria-controls="dortoir">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="dortoir">
+                        <div class="card card-body bg-success w-100 m-0">
+                            Dortoir bas de gamme, qui ne coute vraiment pas cher, mais qui à des douches et des toilettes horribles
+                            Les chambres sont correctes, une salle de sport existe, une salle pour entreposer son vélo
+                            Il est possible de laver ses vetements contre 1.50€ la machine
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-success">
+                    <a href="https://goo.gl/maps/iFhNAXjuCqR2" target="_blank" class="badge badge-success">
+                        <i class="material-icons d-block">place</i> Ganību iela 36/48, Liepāja, LV-3401, Lettonie
+                    </a>
+                </li>
+                <li class="list-group-item bg-success">
+                    <a href="https://www.liepu.lv/lv/291/dienesta-viesnica" target="_blank" class="badge badge-success">
+                        <i class="material-icons d-block">link</i> liepu.lv/lv/291/dienesta-viesnica
+                    </a>
+                </li>
+                <li class="list-group-item bg-success">
+                    <a href="tel:63 424 275" target="_blank" class="badge badge-success">
+                        <i class="material-icons d-block">phone</i> 63 420 165
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_very_dissatisfied</i>
             </div>
         </div>
+
+        <!-- ------ -->
+
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Supernetto</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <i class="material-icons d-block">description</i> A utiliser qu'en cas d'urgence, le choix est limité, préferrez les grandes surfaces (moins
+                    cher et plus de choix)
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-warning">
+                    <a href="https://goo.gl/maps/sgqLVJoRv2M2" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">place</i> Kungu iela 40/42, Liepāja, LV-3401, Lettonie
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="http://supernetto.lv" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">link</i> supernetto.lv
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="tel:63 426 016" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">phone</i> 63 426 016
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_dissatisfied</i>
+            </div>
+        </div>
+
+        <!-- ------ -->
+
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Université de Liepaja</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <i class="material-icons d-block">description</i> C'est le batiment principal de l'université
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-primary">
+                    <a href="https://goo.gl/maps/jt4ynkWQKE32" target="_blank" class="badge badge-primary">
+                        <i class="material-icons d-block">place</i> Lielā iela 14, Liepāja, LV-3401, Lettonie
+                    </a>
+                </li>
+                <li class="list-group-item bg-primary">
+                    <a href="https://www.liepu.lv/en/" target="_blank" class="badge badge-primary">
+                        <i class="material-icons d-block">link</i> liepu.lv/en
+                    </a>
+                </li>
+                <li class="list-group-item bg-primary">
+                    <a href="tel:63 425 659" target="_blank" class="badge badge-primary">
+                        <i class="material-icons d-block">phone</i> 63 425 659
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_neutral</i>
+            </div>
+        </div>
+
+        <!-- ------ -->
+
+        <!-- ------ -->
+
+        <!-- ------ -->
+
+        <!-- ------ -->
+
+        <!-- ------ -->
 
         <!-- ------ -->
 
@@ -308,16 +428,17 @@
 
     </div>
 
-        <div class="footer">
-            <p class="title">Vous pouvez modifier ou ajouter des informations sur ce site</p>
-            <p class="title">Les fichiers HTML et CSS se trouvent à cette adresse</p>
-            <a class="badge badge-pill badge-dark github" href="https://github.com/AlexQuiniou/bienvenue-a-liepaja">bienvenue-a-liepaja</a>
-        </div>
+    <div class="footer">
+        <p class="title">Vous pouvez modifier ou ajouter des informations sur ce site</p>
+        <p class="title">Les fichiers HTML et CSS se trouvent à cette adresse</p>
+        <a class="badge badge-pill badge-dark github" href="https://github.com/AlexQuiniou/bienvenue-a-liepaja">bienvenue-a-liepaja</a>
+    </div>
 
-        <!-- <div class="container">
+    <!-- <div class="container">
             <p class="title">Bus interville</p>
         </div> -->
     </div>
+
 
 
 </body>
