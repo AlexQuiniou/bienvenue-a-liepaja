@@ -8,6 +8,8 @@
     <title>Bienvenue à Liepaja</title>
     <link rel="stylesheet" href="index.css">
 
+    <!-- ------ -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -15,7 +17,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
 
+    <!-- ------ -->
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- ------ -->
 
 </head>
 
@@ -24,7 +30,6 @@
     <div class="o-wall__inner bienvenue justify-content-center">
 
         <!-- ------ -->
-
 
         <ol class="o-wall__letters-list un titre">
             <li class="o-wall__letters-list--letter">
@@ -216,9 +221,9 @@
                     </p>
                     <div class="collapse" id="dortoir">
                         <div class="card card-body bg-success w-100 m-0">
-                            Dortoir bas de gamme, qui ne coute vraiment pas cher, mais qui à des douches et des toilettes horribles
-                            Les chambres sont correctes, une salle de sport existe, une salle pour entreposer son vélo
-                            Il est possible de laver ses vetements contre 1.50€ la machine
+                            Dortoir bas de gamme, qui ne coute vraiment pas cher, mais qui à des douches et des toilettes horribles Les chambres sont
+                            correctes, une salle de sport existe, une salle pour entreposer son vélo Il est possible de laver
+                            ses vetements contre 1.50€ la machine
                         </div>
                     </div>
                 </p>
@@ -253,8 +258,19 @@
             </div>
             <div class="card-body">
                 <p class="card-text">
-                    <i class="material-icons d-block">description</i> A utiliser qu'en cas d'urgence, le choix est limité, préferrez les grandes surfaces (moins
-                    cher et plus de choix)
+                    <p>
+                        <button class="btn btn-warning text-white" type="button" data-toggle="collapse" data-target="#supernetto" aria-expanded="false"
+                            aria-controls="supernetto">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="supernetto">
+                        <div class="card card-body bg-warning w-100 m-0">
+                            A utiliser qu'en cas d'urgence, le choix est limité, préferrez les grandes surfaces (moins cher et plus de choix)
+                        </div>
+                    </div>
+
+
                 </p>
             </div>
             <ul class="list-group list-group-flush">
@@ -287,7 +303,16 @@
             </div>
             <div class="card-body">
                 <p class="card-text">
-                    <i class="material-icons d-block">description</i> C'est le batiment principal de l'université
+                    <p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#universite" aria-expanded="false" aria-controls="universite">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="universite">
+                        <div class="card card-body bg-primary w-100 m-0">
+                            C'est le batiment principal de l'université
+                        </div>
+                    </div>
                 </p>
             </div>
             <ul class="list-group list-group-flush">
@@ -314,132 +339,267 @@
 
         <!-- ------ -->
 
-        <!-- ------ -->
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Centre commercial KURZEME</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-warning text-white" type="button" data-toggle="collapse" data-target="#kurzeme" aria-expanded="false"
+                            aria-controls="kurzeme">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="kurzeme">
+                        <div class="card card-body bg-warning w-100 m-0">
+                            Centre commercial placé dans le centre ville Ideal pour s'acheter un repas le midi ou une vienoiserie
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-warning">
+                    <a href="https://goo.gl/maps/VSRxQto8z6w" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">place</i> Lielā iela 13, Liepāja, LV-3401, Lettonie
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="http://www.tnkurzeme.lv/en" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">link</i> tnkurzeme.lv/en
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="tel:29 241 413" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">phone</i> 29 241 413
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_satisfied</i>
+            </div>
+        </div>
 
         <!-- ------ -->
 
-        <!-- ------ -->
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Centre commercial RIMI</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-warning text-white" type="button" data-toggle="collapse" data-target="#rimi" aria-expanded="false"
+                            aria-controls="rimi">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="rimi">
+                        <div class="card card-body bg-warning w-100 m-0">
+                            L'un des plus grand centre commercial de la ville Il regorge de boutiques et propose un grand choix ainsi que des prix les
+                            plus bas
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-warning">
+                    <a href="https://goo.gl/maps/WK78nBmEjMA2" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">place</i> Kārļa Zāles laukums 8, Liepāja, LV-3401, Lettonie
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="https://www.rimi.lv" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">link</i> rimi.lv
+                    </a>
+                </li>
+                <li class="list-group-item bg-warning">
+                    <a href="tel:63 484 747" target="_blank" class="badge badge-warning text-white">
+                        <i class="material-icons d-block">phone</i> 63 484 747
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_very_satisfied</i>
+            </div>
+        </div>
 
         <!-- ------ -->
 
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Site internet de location d'habitation</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#ss" aria-expanded="false" aria-controls="ss">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="ss">
+                        <div class="card card-body bg-success w-100 m-0">
+                            Site internet qui m'a été conseillé sur place lorsque j'avais l'idée de partir du dortoir
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-success">
+                    <a href="https://www.ss.com/lv/real-estate/flats/liepaja-and-reg/liepaja/" target="_blank" class="badge badge-success">
+                        <i class="material-icons d-block">link</i> ss.com/lv/real-estate/flats/liepaja-and-reg/liepaja/
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_neutral</i>
+            </div>
+        </div>
+
         <!-- ------ -->
 
-        <div class="card">
-            <div class="manger">
-                <p class="title">Adresse</p>
-                <a class="badge badge-pill badge-warning" href="geo:XXX">Lielā iela 13, Liepāja, LV-3401
-                    <a class="badge badge-light" href="https://goo.gl/maps/VSRxQto8z6w" target="_blank">Google maps</a>
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Transports en commun</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#transports" aria-expanded="false" aria-controls="transports">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="transports">
+                        <div class="card card-body bg-danger w-100 m-0">
+                            Site indispensable qui vous aidera à vous dépatouiller lors de vos deplacements dans la ville
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-danger">
+                    <a href="http://www.marsruti.lv/liepaja/#plan//map" target="_blank" class="badge badge-danger">
+                        <i class="material-icons d-block">link</i> marsruti.lv/liepaja/#plan//map
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_satisfied</i>
+            </div>
+        </div>
+
+        <!-- ------ -->
+
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Guide touritique</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#wiki" aria-expanded="false" aria-controls="wiki">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="wiki">
+                        <div class="card card-body bg-info w-100 m-0">
+                            Un wiki fait par une personne qui à été sur place, donc les informations sont tres interessantes A lire avant de partir
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-info">
+                    <a href="https://wikitravel.org/en/Liepaja" target="_blank" class="badge badge-info">
+                        <i class="material-icons d-block">link</i> wikitravel.org/en/Liepaja
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_neutral</i>
+            </div>
+        </div>
+
+        <!-- ------ -->
+
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Bus interville</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#interville" aria-expanded="false" aria-controls="interville">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="interville">
+                        <div class="card card-body bg-danger w-100 m-0">
+                            Site indispensable pour trouver un bus qui vas faire la liaison entre Riga et Liepaja et inversement
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-danger">
+                    <a href="https://www.1188.lv/en/transport/buses" target="_blank" class="badge badge-danger">
+                        <i class="material-icons d-block">link</i> 1188.lv/en/transport/buses
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <i class="material-icons">sentiment_very_satisfied</i>
+            </div>
+        </div>
+
+        <!-- ------ -->
+
+    </div>
+
+    <!-- ------ -->
+
+    <div>
+
+        <!-- ------ -->
+
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h5 class="card-title">Bienvenue à Liepaja</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#github" aria-expanded="false" aria-controls="github">
+                            <i class="material-icons d-block">description</i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="github">
+                        <div class="card card-body bg-dark w-100 m-0">
+                            Vous pouvez modifier ou ajouter des informations sur ce site - Les fichiers HTML et CSS se trouvent à cette adresse
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-dark">
+                    <a href="https://github.com/AlexQuiniou/bienvenue-a-liepaja" target="_blank" class="badge badge-dark">
+                        <i class="material-icons d-block">link</i> github.com/AlexQuiniou/bienvenue-a-liepaja
+                    </a>
+                </li>
+            </ul>
+            <div class="card-footer">
+                <a class="btn btn-dark w-25" href="https://github.com/" target="_blank" role="button">
+                    <img src="GitHub-Mark.svg" alt="">
                 </a>
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-warning" href="http://www.tnkurzeme.lv/en" target="_blank">tnkurzeme.lv/en</a>
-                <p class="title">Numéro de téléphone</p>
-                <a class="badge badge-pill badge-warning" href="tel:29 241 413">29 241 413</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">✔️</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Centre commercial KURZEME</p>
-            </div>
-        </div>
-
-        <!-- ------ -->
-
-        <div class="card">
-            <div class="manger">
-                <p class="title">Adresse</p>
-                <a class="badge badge-pill badge-warning" href="geo:XXX">Kārļa Zāles laukums 8, Liepāja, LV-3401
-                    <a class="badge badge-light" href="https://goo.gl/maps/WK78nBmEjMA2" target="_blank">Google maps</a>
+                <a class="btn btn-dark w-25" href="https://getbootstrap.com/" target="_blank" role="button">
+                    <img src="bootstrap-punchout.svg" alt="">
                 </a>
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-warning" href="https://www.rimi.lv/" target="_blank">rimi.lv</a>
-                <p class="title">Numéro de téléphone</p>
-                <a class="badge badge-pill badge-warning" href="tel:63 484 747">63 484 747</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">✔️</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Centre commercial RIMI</p>
-            </div>
-        </div>
-
-        <!-- ------ -->
-
-        <div class="card">
-            <div class="habitation">
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-success" href="https://www.ss.com/lv/real-estate/flats/liepaja-and-reg/liepaja/" target="_blank">ss.com/lv/real-estate/flats/liepaja-and-reg/liepaja</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">❔</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Site de location</p>
-            </div>
-        </div>
-
-        <!-- ------ -->
-
-        <div class="card">
-            <div class="voyager">
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-danger" href="http://www.marsruti.lv/liepaja/#plan//map" target="_blank">marsruti.lv/liepaja/#plan//map</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">✔️</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Transports en commun</p>
-            </div>
-        </div>
-
-        <!-- ------ -->
-
-        <div class="card">
-            <div class="informer">
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-info" href="https://wikitravel.org/en/Liepaja" target="_blank">wikitravel.org/en/Liepaja</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">❔</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Guide touritique</p>
-            </div>
-        </div>
-
-        <!-- ------ -->
-
-        <div class="card">
-            <div class="voyager">
-                <p class="title">Site web</p>
-                <a class="badge badge-pill badge-danger" href="https://www.1188.lv/en/transport/buses" target="_blank">1188.lv/en/transport/buses</a>
-                <p class="title">Recommandé</p>
-                <a class="badge badge-pill badge-dark">✔️</a>
-            </div>
-
-            <div class="container">
-                <p class="title">Bus interville</p>
             </div>
         </div>
 
         <!-- ------ -->
 
     </div>
-
-    <div class="footer">
-        <p class="title">Vous pouvez modifier ou ajouter des informations sur ce site</p>
-        <p class="title">Les fichiers HTML et CSS se trouvent à cette adresse</p>
-        <a class="badge badge-pill badge-dark github" href="https://github.com/AlexQuiniou/bienvenue-a-liepaja">bienvenue-a-liepaja</a>
-    </div>
-
-    <!-- <div class="container">
-            <p class="title">Bus interville</p>
-        </div> -->
-    </div>
-
-
 
 </body>
 
